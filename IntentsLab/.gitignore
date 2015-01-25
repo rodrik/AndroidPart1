@@ -1,0 +1,9 @@
+/gen
+/bin
+/res
+/project.properties
+/proguard-project.txt
+/.settings
+/.classpath
+/.DS_Store
+/.project
