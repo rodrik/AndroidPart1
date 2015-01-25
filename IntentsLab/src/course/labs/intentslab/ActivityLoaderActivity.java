@@ -83,7 +83,7 @@ public class ActivityLoaderActivity extends Activity {
 		// Create a base intent for viewing a URL
 		// (HINT:  second parameter uses Uri.parse())
 		
-        Intent baseIntent = new Intent(Intent.ACTION_DEFAULT, Uri.parse(URL));
+        Intent baseIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(URL));
 		
 		// Create a chooser intent, for choosing which Activity
 		// will carry out the baseIntent
