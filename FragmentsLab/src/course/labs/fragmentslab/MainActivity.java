@@ -68,9 +68,11 @@ public class MainActivity extends Activity implements
 
 			// replace the fragment_container with the FeedFragment
 			FragmentTransaction transaction = getFragmentManager().beginTransaction();
+			transaction.remove(mFriendsFragment);
 			transaction.add(R.id.fragment_container, mFeedFragment);
+			transaction.addToBackStack(null);
 			transaction.commit();
-
+			
 			
 
 			// execute transaction now
