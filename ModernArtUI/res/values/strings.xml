@@ -3,5 +3,8 @@
 
     <string name="app_name">ModernArtUI</string>
     <string name="action_moreinformation">More information</string>
+    <string name="dialog_text">Inspired by the works of artists such as Piet Mondrian and Ben Nicholson.\r\n\r\nClick below to learn more!</string>
+    <string name="button_visitmoma">Visit MOMA</string>
+    <string name="button_notnow">Not Now</string>
 
 </resources>
